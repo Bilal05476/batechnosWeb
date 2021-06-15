@@ -1,0 +1,15 @@
+{
+  "short_name": "Ba Technos",
+  "name": "Ba Technos",
+  "icons": [
+    {
+      "src": "/images/favi.png",
+      "type": "image/png",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
