@@ -6,11 +6,13 @@
 * {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  font-size: 96%;
 }
 :root {
   --mainColor--: rgb(26, 38, 68);
   --lightBlue--: #26a0da;
   --darkBlue--: #314755;
+  --darkMode--: #424242;
 }
 .logo__image {
   width: 120px;
@@ -36,15 +38,15 @@
   opacity: 0;
 }
 
-.navbar-toggler .line_1{
-  transform: rotate(-405deg) translate(-5px, 6px);
+.navbar-toggler .line_1 {
+  transform: rotate(-405deg) translate(-5px, 6px) !important;
   transition: 0.5s;
-  width: 1.8rem;
+  width: 1.4rem;
 }
 
-.navbar-toggler .line_3{
-  transform: rotate(405deg) translate(-5px, -6px);
-  width: 1.8rem;
+.navbar-toggler .line_3 {
+  transform: rotate(405deg) translate(-5px, -6px) !important;
+  width: 1.4rem;
   transition: 0.5s;
 }
 
@@ -58,7 +60,7 @@
   width: 2rem;
   background-color: var(--mainColor--);
   margin-bottom: 0.4rem;
-  transform: none;
+  transform: none !important;
 }
 
 .nav__link {
@@ -631,6 +633,9 @@ img {
   .content__img {
     width: 200px;
     height: 200px;
+  }
+  .brand-name {
+    font-size: 2rem !important;
   }
 }
 

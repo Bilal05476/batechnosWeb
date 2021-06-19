@@ -38,7 +38,7 @@ const Navbar = () => {
           )}
 
           <div
-            className="navbar-toggler"
+            className="navbar-toggler collapsed"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
@@ -55,7 +55,7 @@ const Navbar = () => {
                 {location.pathname === "/" ? (
                   <>
                     <a
-                      activeClassName="menu_active"
+                      activeclassname="menu_active"
                       className="nav-link if_hover text-dark"
                       href="#home"
                     >
@@ -79,7 +79,7 @@ const Navbar = () => {
                 {location.pathname === "/" ? (
                   <>
                     <a
-                      activeClassName="menu_active"
+                      activeclassname="menu_active"
                       className="nav-link if_hover text-dark"
                       href="#services"
                     >
@@ -103,7 +103,7 @@ const Navbar = () => {
                 {location.pathname === "/" ? (
                   <>
                     <a
-                      activeClassName="menu_active"
+                      activeclassname="menu_active"
                       className="nav-link if_hover text-dark"
                       href="#about"
                     >
