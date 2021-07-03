@@ -8,10 +8,10 @@ const Courses = () => {
       <div className="web__div courses__main text-light" data-aos="zoom-in">
         <div className="row">
           <div
-            className="offset-md-3 col-md-6 alert alert-info alert-dismissible fade show"
+            className="offset-md-3 col-md-6 alert alert-danger alert-dismissible fade show"
             role="alert"
           >
-            <strong>All Courses are Offering Online!</strong>
+            <strong>Registration is Closed</strong>
             <button
               type="button"
               className="close"

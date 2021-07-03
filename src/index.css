@@ -6,7 +6,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
-  font-size: 96%;
+  font-size: 97%;
 }
 :root {
   --mainColor--: rgb(26, 38, 68);
@@ -382,6 +382,10 @@ img {
   display: none;
 }
 
+#header ul {
+  margin-top: 20px;
+}
+
 /*Landig Page*/
 .main {
   background: linear-gradient(
@@ -604,6 +608,9 @@ img {
   }
   #header {
     text-align: center;
+  }
+  #header ul li {
+    text-align: left;
   }
   #home__header {
     text-align: center;
