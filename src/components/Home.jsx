@@ -3,8 +3,6 @@ import Homepage from "./Homepage";
 import SData from "./SData";
 import SCard from "./SCard";
 
-
-
 const Home1 = () => {
   return (
     <>
@@ -36,7 +34,6 @@ const Home1 = () => {
         </div>
       </div>
       <br />
-  
     </>
   );
 };

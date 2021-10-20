@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../images/logo.png";
-import About from "./About";
-import Contact from "./Contact";
-import Services from "./Services";
+// import About from "./About";
+// import Contact from "./Contact";
+// import Services from "./Services";
 import Home from "./Home";
 
 const Navbar = () => {
@@ -11,28 +11,18 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className=" navbar navbar-expand-md fixed-top" data-aos="zoom-in">
+      <nav className="navbar navbar-expand-md fixed-top" data-aos="zoom-in">
         <div className="container mx-auto">
           {location.pathname === "/" ? (
             <>
               <a className="navbar-brand" href="#home">
-                <img
-                  src={logo}
-                  alt="logoimage"
-                  className="logo__image"
-                  data-aos="fade-up"
-                />
+                <img src={logo} alt="logo" />
               </a>
             </>
           ) : (
             <>
               <NavLink className="navbar-brand" to="/" exact>
-                <img
-                  src={logo}
-                  alt="logoimage"
-                  className="logo__image"
-                  data-aos="fade-up"
-                />
+                <img src={logo} alt="logo" />
               </NavLink>
             </>
           )}
@@ -175,7 +165,7 @@ const Navbar = () => {
           <div id="home">
             <Home />
           </div>
-          <div id="about">
+          {/* <div id="about">
             <About />
           </div>
           <div id="services">
@@ -183,7 +173,7 @@ const Navbar = () => {
           </div>
           <div id="contact">
             <Contact />
-          </div>
+          </div> */}
         </>
       )}
     </>

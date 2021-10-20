@@ -14,14 +14,16 @@
   --darkBlue--: #314755;
   --darkMode--: #424242;
 }
-.logo__image {
-  width: 120px;
-  height: 50px;
+.navbar-brand {
+  font-size: 2.1rem !important;
+  letter-spacing: 0.3rem;
+  color: var(--mainColor--);
   margin-right: 100px;
 }
 .navbar {
   opacity: 100;
-  background-color: #fff;
+  background-color: transparent;
+  /* color: #fff !important; */
 }
 .container {
   border-bottom: 0.5px solid var(--mainColor--);
