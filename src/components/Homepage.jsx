@@ -5,20 +5,18 @@ const Homepage = (props) => {
     <>
       <div className="container-fluid homepage">
         <div className="row">
-          <div className="col-md-12 text-center">
-            <h1 className="text-light">
-              {props.name} <br />
+          <div className="col-md-12">
+            <h3 className="text-light">
+              {props.name}
               <strong className="company-name">{props.businessName}</strong>
-            </h1>
+            </h3>
+            <p className="text-light">{props.subtitle}</p>
             <div className="mt-3">
               <a className="btn__services" href={props.servicesVisit}>
                 {props.servicesbtn}
               </a>
               <NavLink className="btn__services" to={props.coursesVisit}>
                 {props.coursesbtn}
-              </NavLink>
-              <NavLink className="btn__services" to={props.demoVisit}>
-                {props.demobtn}
               </NavLink>
             </div>
           </div>

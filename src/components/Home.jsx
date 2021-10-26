@@ -9,12 +9,10 @@ const Home1 = () => {
       <div className="home1__div" data-aos="zoom-in">
         <Homepage
           name="Grow your business with "
-          subtitle="We are the team of talented people !"
-          businessName=" BaTechnos"
+          subtitle="Doing the right thing at the right time!"
+          businessName=" BATECHNOS"
           servicesVisit="#services"
           servicesbtn="Services"
-          demoVisit="/demo"
-          demobtn="Free Demo"
           coursesbtn="Courses"
           coursesVisit="/courses"
         />

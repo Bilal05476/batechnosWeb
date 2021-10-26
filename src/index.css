@@ -17,16 +17,15 @@
 .navbar-brand {
   font-size: 2.1rem !important;
   letter-spacing: 0.3rem;
-  color: var(--mainColor--);
+  /* color: var(--mainColor--); */
   margin-right: 100px;
 }
 .navbar {
   opacity: 100;
   background-color: transparent;
-  /* color: #fff !important; */
 }
 .container {
-  border-bottom: 0.5px solid var(--mainColor--);
+  /* border-bottom: 0.5px solid var(--mainColor--); */
   border-radius: 2px;
   padding-bottom: 5px;
 }
@@ -65,11 +64,11 @@
   transform: none !important;
 }
 
-.nav__link {
-  font-size: 30px;
+.nav-link {
+  font-size: 1rem;
   border: none !important;
   outline: none !important;
-  color: var(--mainColor--) !important;
+  color: #fff !important;
 }
 .navbar-toggler:hover {
   background-color: transparent;
@@ -78,12 +77,10 @@
   outline: none;
 }
 .homepage {
-  background: linear-gradient(rgba(26, 38, 68, 0.8), rgba(26, 38, 68, 0.6)),
+  background: linear-gradient(rgba(26, 38, 68, 0.884), rgba(26, 38, 68, 0.836)),
     url(./images/carousel-graph.jpg) center no-repeat;
   background-size: cover;
-  margin-top: 76px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px;
 }
 .services__div {
   background-size: cover;
@@ -199,7 +196,6 @@ img {
 }
 
 .card:hover {
-  /* border: 0.5px solid var(--mainColor--); */
   transition: 0.5s !important;
   box-shadow: 2px 2px 12px var(--mainColor--);
   cursor: pointer;
@@ -207,9 +203,8 @@ img {
 
 .menu_active {
   font-weight: bold;
-  border-bottom: 1px solid var(--mainColor--);
   border-radius: 4px;
-  color: var(--mainColor--) !important;
+  color: var(--lightBlue--) !important;
   transition: 0.5s;
 }
 
@@ -244,11 +239,14 @@ img {
   display: inline-block;
   padding: 10px 30px;
   margin: auto 10px;
+  margin-left: 0;
   transition: 0.5s;
-  border-radius: 50px;
+  border-radius: 10px;
   color: white;
   border: 2px solid var(--mainColor--);
+  border: 2px solid #fff;
   background-color: var(--mainColor--);
+  background-color: transparent;
   text-decoration: none;
 }
 .homepage .btn__services:hover,
@@ -258,14 +256,14 @@ img {
   border: 2px solid var(--mainColor--);
   transition: 0.5s;
   box-shadow: 1px 1px 15px grey;
-  transform: translateY(2px);
+  transform: translateY(0.5px);
 }
 .navigation .btn__services {
   margin: 0;
 }
-.navigation .btn__services:hover {
+/* .navigation .btn__services:hover {
   color: var(--mainColor--);
-}
+} */
 .btn__db {
   font-weight: 500;
   font-size: 16px;
@@ -319,7 +317,7 @@ img {
 }
 #header .brand-name {
   color: var(--mainColor--);
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .company-name {
   color: white;
@@ -617,13 +615,7 @@ img {
   #home__header {
     text-align: center;
   }
-  .homepage {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
-  .homepage h1 {
-    font-size: 26px;
-  }
+
   .content {
     padding-left: 15px !important;
     padding-right: 15px !important;
