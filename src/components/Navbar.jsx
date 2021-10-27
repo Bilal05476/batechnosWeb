@@ -67,7 +67,10 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <div className="navigation">
-                  <NavLink className="btn__services sm__btn" to="/contact">
+                  <NavLink
+                    className="light_btn btn__services sm__btn"
+                    to="/contact"
+                  >
                     Contact
                   </NavLink>
                 </div>
@@ -75,7 +78,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navigation d-none d-md-block">
-            <NavLink className="btn__services lg__btn" to="/contact">
+            <NavLink className="light_btn btn__services lg__btn" to="/contact">
               Contact
             </NavLink>
           </div>

@@ -15,7 +15,7 @@
   --darkMode--: #424242;
 }
 .navbar-brand {
-  font-size: 2.1rem !important;
+  font-size: 1rem;
   letter-spacing: 0.3rem;
   /* color: var(--mainColor--); */
   margin-right: 100px;
@@ -25,7 +25,6 @@
   background-color: transparent;
 }
 .container {
-  /* border-bottom: 0.5px solid var(--mainColor--); */
   border-radius: 2px;
   padding-bottom: 5px;
 }
@@ -59,7 +58,7 @@
   margin-top: 1px;
   height: 0.1rem;
   width: 2rem;
-  background-color: var(--mainColor--);
+  background-color: var(--lightBlue--);
   margin-bottom: 0.4rem;
   transform: none !important;
 }
@@ -77,10 +76,16 @@
   outline: none;
 }
 .homepage {
-  background: linear-gradient(rgba(26, 38, 68, 0.884), rgba(26, 38, 68, 0.836)),
+  background: linear-gradient(rgba(26, 38, 68, 0.932), rgba(26, 38, 68, 0.918)),
     url(./images/carousel-graph.jpg) center no-repeat;
   background-size: cover;
-  padding: 200px;
+  padding: 130px;
+}
+.homepage .text_div {
+  padding-top: 100px;
+}
+.homepage .row {
+  margin-left: 0.2rem;
 }
 .services__div {
   background-size: cover;
@@ -231,6 +236,7 @@ img {
   transition: 0.5s;
   margin-left: 5px;
 }
+
 .homepage .btn__services,
 .navigation .btn__services {
   font-weight: 500;
@@ -243,27 +249,28 @@ img {
   transition: 0.5s;
   border-radius: 10px;
   color: white;
-  border: 2px solid var(--mainColor--);
   border: 2px solid #fff;
-  background-color: var(--mainColor--);
   background-color: transparent;
   text-decoration: none;
 }
 .homepage .btn__services:hover,
 .navigation .btn__services:hover {
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid var(--mainColor--);
   transition: 0.5s;
-  box-shadow: 1px 1px 15px grey;
+  box-shadow: 1px 1px 10px #fffff1a6;
   transform: translateY(0.5px);
 }
 .navigation .btn__services {
   margin: 0;
 }
-/* .navigation .btn__services:hover {
-  color: var(--mainColor--);
-} */
+.light_btn {
+  background-color: var(--lightBlue--) !important;
+  border: 2px solid var(--lightBlue--) !important;
+}
+.homepage .circleImage {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
 .btn__db {
   font-weight: 500;
   font-size: 16px;
@@ -575,11 +582,14 @@ img {
   .links {
     margin: 10px 0px;
   }
+  .homepage {
+    padding: 80px;
+  }
+  .homepage .row {
+  margin-left: 0rem;
+}
   .copy__text {
     text-align: center;
-  }
-  .navbar {
-    border-bottom: 0.5px solid var(--mainColor--);
   }
   .navigation .sm__btn {
     display: block;
@@ -614,6 +624,12 @@ img {
   }
   #home__header {
     text-align: center;
+  }
+  .homepage .circleImage {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 3rem;
   }
 
   .content {

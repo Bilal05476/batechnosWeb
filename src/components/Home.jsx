@@ -8,9 +8,15 @@ const Home1 = () => {
     <>
       <div className="home1__div" data-aos="zoom-in">
         <Homepage
-          name="Grow your business with "
-          subtitle="Doing the right thing at the right time!"
-          businessName=" BATECHNOS"
+          name="Doing the right thing at the right time!"
+          subtitle="Doing the right thing at the right time!
+          Doing the right thing at the right time!
+          Doing the right thing at the right time!
+          Doing the right thing at the right time!
+          Doing the right thing at the right time!
+          Doing the right thing at the right time!
+          Doing the right thing at the right time!
+          Doing the right thing at the right time!"
           servicesVisit="#services"
           servicesbtn="Services"
           coursesbtn="Courses"
