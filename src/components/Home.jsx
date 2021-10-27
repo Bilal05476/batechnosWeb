@@ -6,17 +6,13 @@ import SCard from "./SCard";
 const Home1 = () => {
   return (
     <>
-      <div className="home1__div" data-aos="zoom-in">
+      <div className="home1__div" data-aos="fade-in">
         <Homepage
           name="Doing the right thing at the right time!"
-          subtitle="Doing the right thing at the right time!
-          Doing the right thing at the right time!
-          Doing the right thing at the right time!
-          Doing the right thing at the right time!
-          Doing the right thing at the right time!
-          Doing the right thing at the right time!
-          Doing the right thing at the right time!
-          Doing the right thing at the right time!"
+          subtitle="Every successful digital journey starts with Graphics, Development, and Marketing. 
+          B-A TECHNOS provides a One-stop solution to our Foreign and Local clients to facelift their Brands. 
+          We made technology simple for you and adapt reliable, easy, and innovative ideas. 
+          Better design with easy navigation for stubborn marketing. So what are you waiting for?"
           servicesVisit="#services"
           servicesbtn="Services"
           coursesbtn="Courses"

@@ -1,10 +1,11 @@
 /*Import Fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap");
 
 * {
   font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   font-size: 97%;
 }
@@ -14,11 +15,11 @@
   --darkBlue--: #314755;
   --darkMode--: #424242;
 }
-.navbar-brand {
-  font-size: 1rem;
-  letter-spacing: 0.3rem;
-  /* color: var(--mainColor--); */
-  margin-right: 100px;
+.navbar-brand h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
 }
 .navbar {
   opacity: 100;
@@ -140,10 +141,6 @@
   text-align: justify;
   justify-content: center;
 }
-.navbar-brand {
-  font-family: "Mulish", sans-serif;
-  font-weight: bold;
-}
 
 .host {
   border-radius: 10px;
@@ -256,8 +253,9 @@ img {
 .homepage .btn__services:hover,
 .navigation .btn__services:hover {
   transition: 0.5s;
-  box-shadow: 1px 1px 10px #fffff1a6;
+  box-shadow: 1px 1px 6px var(--lightBlue--);
   transform: translateY(0.5px);
+  background-color: var(--lightBlue--) !important;
 }
 .navigation .btn__services {
   margin: 0;
@@ -268,18 +266,25 @@ img {
 }
 .homepage .circleImage {
   height: 400px;
-  width: 400px;
-  border-radius: 50%;
+  width: 430px;
+  border: 2px solid var(--lightBlue--);
+  position: relative;
+  transition: 0.5s ease-in-out;
+  box-shadow: 1px 1px 6px var(--lightBlue--);
+}
+.homepage .circleImage:hover {
+  box-shadow: 1px 1px 10px var(--lightBlue--);
 }
 .btn__db {
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  padding: 10px 30px;
+  font-weight: 300;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  padding: 0.5rem 1.5rem;
   transition: 0.5s;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #fff;
-  border: 2px solid red;
+  margin-left: 4.1rem;
+  margin-top: 1rem;
   text-decoration: none;
   cursor: pointer;
 }
@@ -365,7 +370,7 @@ img {
   background-color: var(--mainColor--) !important;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 20px;
+  padding-top: 5rem;
 }
 .footer-links:hover {
   transition: 0.5s;
@@ -577,17 +582,19 @@ img {
   border-radius: 2rem;
   width: 100%;
 }
-
+.footer-logo-text {
+  margin-top: 4rem;
+}
 @media (max-width: 767px) {
   .links {
     margin: 10px 0px;
   }
   .homepage {
-    padding: 80px;
+    padding: 50px;
   }
   .homepage .row {
-  margin-left: 0rem;
-}
+    margin-left: -0.6rem;
+  }
   .copy__text {
     text-align: center;
   }
@@ -612,10 +619,7 @@ img {
     padding-right: 0;
     padding-left: 0;
   }
-  .logo__image {
-    width: 110px;
-    height: 50px;
-  }
+
   #header {
     text-align: center;
   }
@@ -627,8 +631,7 @@ img {
   }
   .homepage .circleImage {
     height: 250px;
-    width: 250px;
-    border-radius: 50%;
+    width: 280px;
     margin-top: 3rem;
   }
 
@@ -651,8 +654,8 @@ img {
     width: 200px;
     height: 200px;
   }
-  .brand-name {
-    font-size: 2rem !important;
+  .btn__db {
+    margin-left: 6.3rem;
   }
 }
 
@@ -663,4 +666,5 @@ img {
   .form__heading {
     font-size: 20px;
   }
+
 }

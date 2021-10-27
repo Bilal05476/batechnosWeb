@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/ba-logo.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
@@ -36,16 +35,18 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="footer align-items-center text-white" data-aos="zoom-in">
+      <div className="footer align-items-center text-white" data-aos="fade-in">
         <div className="container">
           <div className="row">
-            <div className="col-12 col-md-3 foot align-self-center">
-              <img src={logo} alt="logoimage" className="logo__image" /> <br />
-              Every SUCCESSFUL DIGITAL JOURNEY START WITH GRAPHICS DEVELOPMENT
-              AND MARKETING...! Ba Technos Provide One Window Solution to our
-              Foreign and Local clients to Facelift their Brands.
+            <div className="col-12 col-md-3 foot">
+              <NavLink className="navbar-brand text-light" to="/" exact>
+                <h3>B-A TECHNOS</h3>
+              </NavLink>{" "}
+              <br />
+              B-A TECHNOS provides a One-stop solution to our Foreign and Local
+              clients to facelift their Brands.
             </div>
-            <div className="col-12 col-md-2 links align-self-center">
+            <div className="col-12 col-md-2 links">
               <h4>Links</h4>
               <FaAngleRight color="white" />
               <NavLink className="footer-links text-light" to="/">
@@ -72,7 +73,7 @@ const Footer = () => {
                 Courses
               </NavLink>
             </div>
-            <div className="col-12 col-md-3 contact align-self-center">
+            <div className="col-12 col-md-3 contact">
               <h4>Contact Us</h4>
               <p className="footer-contact">
                 <FaLocationArrow className="fa-social-icons" color="white" />
@@ -114,11 +115,10 @@ const Footer = () => {
               </a>
             </div>
             <form
-              className="col-12 col-md-3 links align-self-center subscribe__form"
+              className="col-12 col-md-3 links subscribe__form"
               onSubmit={handleSubmit}
             >
               <h4>Subscribe Us</h4>
-              <label htmlFor="exampleInputEmail1"></label>
               <input
                 type="email"
                 className="form-control"
@@ -131,8 +131,11 @@ const Footer = () => {
               />
               <button
                 type="send"
-                className="btn-block my-2 btn__db"
-                style={{ background: loader ? "#ccc" : " rgb(255, 0, 0)" }}
+                className="btn__db"
+                style={{
+                  background: loader ? "#ccc" : " rgb(255, 0, 0)",
+                  border: loader ? "none" : "2px solid red",
+                }}
               >
                 Subscribe
               </button>

@@ -1,14 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import BannerCircle from "../images/banner-image.jpg";
+import BannerCircle from "../images/carousel-graph.jpg";
+import BannerCircle2 from "../images/carousel-digi.jpg";
+import BannerCircle3 from "../images/carousel-web.jpg";
 const Homepage = (props) => {
+  let currentImage = 0;
+  const [imgSrc, setImageSrc] = useState(BannerCircle);
+
+  //Continuous Image Changes
+
+  const changeImages = () => {
+    if (currentImage < 3) {
+      currentImage++;
+      if (currentImage === 1) {
+        setImageSrc(BannerCircle2);
+      } else if (currentImage === 2) {
+        setImageSrc(BannerCircle3);
+      }
+    } else {
+      currentImage = 0;
+      setImageSrc(BannerCircle);
+    }
+  };
+  useEffect(() => {
+    setInterval(changeImages, 5000);
+  }, []);
+
   return (
     <>
       <div className="container-fluid homepage">
         <div className="row">
           <div className="col-md-7 text_div">
             <h2 className="text-light">{props.name}</h2>
-            <p className="text-light">{props.subtitle}</p>
+            <p className="text-light text-justify">{props.subtitle}</p>
             <div>
               <a className="light_btn btn__services" href={props.servicesVisit}>
                 {props.servicesbtn}
@@ -19,11 +43,7 @@ const Homepage = (props) => {
             </div>
           </div>
           <div className="col-md-4 text-center">
-            <img
-              className="circleImage"
-              src={BannerCircle}
-              alt="bannerCircle"
-            />
+            <img className="circleImage" src={imgSrc} alt="bannerCircle" />
           </div>
         </div>
       </div>

@@ -1,14 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo.png";
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-md fixed-top" data-aos="zoom-in">
-        <div className="container-fluid my-2 mx-3">
+        <div className="container-fluid my-2 mx-2">
           <NavLink className="navbar-brand text-light" to="/" exact>
-            <h3>BATECHNOS</h3>
+            <h3>B-A TECHNOS</h3>
           </NavLink>
           <div
             className="navbar-toggler collapsed"
