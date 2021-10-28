@@ -402,7 +402,7 @@ img {
 
 .footer {
   opacity: 100;
-  background-color: var(--mainColor--) !important;
+  background-color: var(--darkBlue--) !important;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 5rem;
@@ -626,6 +626,9 @@ img {
   }
   .img-fluid {
     margin-top: 2rem;
+  }
+  .homepage {
+    padding: 50px;
   }
   .serviceComponent {
     padding: 30px;
