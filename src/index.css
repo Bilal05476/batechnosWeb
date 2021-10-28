@@ -12,8 +12,15 @@
 :root {
   --mainColor--: rgb(26, 38, 68);
   --lightBlue--: #26a0da;
-  --darkBlue--: #314755;
+  --darkBlue--: #090d1b;
   --darkMode--: #424242;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-top: 10px;
 }
 .navbar-brand h3 {
   font-size: 1.5rem;
@@ -24,6 +31,14 @@
 .navbar {
   opacity: 100;
   background-color: transparent;
+}
+.navbar.scrollNavbar {
+  backdrop-filter: blur(10px);
+  background: var(--darkBlue--);
+}
+
+.navbar.blurryBack {
+  backdrop-filter: blur(10px);
 }
 .container {
   border-radius: 2px;
@@ -59,7 +74,7 @@
   margin-top: 1px;
   height: 0.1rem;
   width: 2rem;
-  background-color: var(--lightBlue--);
+  background-color: #fff;
   margin-bottom: 0.4rem;
   transform: none !important;
 }
@@ -98,7 +113,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
-  margin-top: 76px;
+  /* margin-top: 76px; */
 }
 .digi__div {
   background-size: cover;
@@ -153,7 +168,7 @@ img {
 }
 
 .social-icons {
-  font-size: 35px;
+  font-size: 1.5rem;
   padding: 5px;
 }
 .facebook__link:hover,
@@ -180,6 +195,7 @@ img {
 }
 .fa-social-icons {
   padding-right: 5px;
+  font-size: 1rem;
 }
 
 .serv {
@@ -376,7 +392,7 @@ img {
 }
 .footer-links:hover {
   transition: 0.5s;
-  font-weight: 800;
+  font-weight: 500;
   text-decoration: none;
 }
 .foot {
@@ -411,7 +427,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 76px;
+  /* margin-top: 76px; */
 }
 .content {
   justify-content: center;
@@ -448,6 +464,7 @@ img {
   padding-left: 10px;
   padding-right: 10px;
   margin-left: 40px;
+  margin-top: 76px;
   background: #fff;
   border: 0.2px solid var(--darkBlue--);
 }
@@ -474,7 +491,7 @@ img {
 }
 
 .landing__links {
-  font-size: 3.3rem;
+  font-size: 2.3rem;
   padding: 0.4rem;
   background-color: var(--lightBlue--);
   border-radius: 0.5rem;

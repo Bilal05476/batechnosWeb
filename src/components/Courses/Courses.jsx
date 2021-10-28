@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 const Courses = () => {
   return (
     <>
-      <div className="web__div courses__main text-light" data-aos="zoom-in">
+      <div className="web__div courses__main text-light" data-aos="fade-in">
         <div className="row">
-          <div
+          {/* <div
             className="offset-md-3 col-md-6 alert alert-danger alert-dismissible fade show"
             role="alert"
           >
@@ -20,7 +20,7 @@ const Courses = () => {
             >
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
+          </div> */}
         </div>
 
         <div className="row courses__div">

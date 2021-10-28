@@ -6,7 +6,7 @@ import staticweb from "../../images/staticweb.png";
 import python from "../../images/python.png";
 const CoursesDetails = () => {
   return (
-    <div className="web__div" data-aos="zoom-in">
+    <div className="web__div" data-aos="fade-in">
       <Common3
         name="Static Responsive Website"
         data="This course for absolute beginners who don't know anything about website development. In this course, we cover all the basic fundamentals of website development and responsive development as well."

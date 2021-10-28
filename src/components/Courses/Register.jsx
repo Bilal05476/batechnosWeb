@@ -154,12 +154,7 @@ const Register = () => {
               phone === "" ||
               qualification === "" ||
               course === "" ? (
-                <button
-                  type="send"
-                  className="btn-block btn__disable"
-                  disabled
-                  
-                >
+                <button type="send" className="btn-block btn__disable" disabled>
                   Register
                 </button>
               ) : (

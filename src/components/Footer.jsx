@@ -59,18 +59,18 @@ const Footer = () => {
               </NavLink>
               <br />
               <FaAngleRight color="white" />
-              <NavLink className="footer-links text-light" to="/about">
-                About
-              </NavLink>
-              <br />
-              <FaAngleRight color="white" />
-              <NavLink className="footer-links text-light" to="/contact">
-                Contact
+              <NavLink className="footer-links text-light" to="/demo">
+                Demo
               </NavLink>
               <br />
               <FaAngleRight color="white" />
               <NavLink className="footer-links text-light" to="/courses">
                 Courses
+              </NavLink>
+              <br />
+              <FaAngleRight color="white" />
+              <NavLink className="footer-links text-light" to="/contact">
+                Contact
               </NavLink>
             </div>
             <div className="col-12 col-md-3 contact">
@@ -142,8 +142,8 @@ const Footer = () => {
             </form>
           </div>
           <div className="row copyright">
-            <div className=" align-items-center text-right w-100">
-              <p className="copy__text"> Copyright © 2021 | BaTechnos</p>
+            <div className=" align-items-center text-center text-muted w-100">
+              <p className="copy__text"> Copyright © 2021 | B-A Technos</p>
             </div>
           </div>
         </div>

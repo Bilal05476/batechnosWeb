@@ -1,13 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [navbarBackground, setNavbarBackground] = useState(false);
+  const [navbarIcon, setNavbarIcon] = useState(false);
+
+  // Change Navbar Background
+  const changeBackground = () => {
+    if (window.scrollY >= 66) {
+      setNavbarBackground(true);
+    } else {
+      setNavbarBackground(false);
+    }
+  };
+
+  useEffect(() => {
+    // changeBackground();
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground);
+  });
   return (
     <>
-      <nav className="navbar navbar-expand-md fixed-top" data-aos="zoom-in">
-        <div className="container-fluid my-2 mx-2">
+      <nav
+        className={`navbar navbar-expand-md fixed-top ${
+          navbarBackground ? "scrollNavbar" : ""
+        } ${navbarIcon ? "blurryBack" : ""}`}
+      >
+        <div className="container-fluid">
           <NavLink className="navbar-brand text-light" to="/" exact>
-            <h3>B-A TECHNOS</h3>
+            <h3 className="logo">B-A TECHNOS</h3>
           </NavLink>
           <div
             className="navbar-toggler collapsed"
@@ -16,6 +37,7 @@ const Navbar = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={() => setNavbarIcon(!navbarIcon)}
           >
             <div className="line line_1"></div>
             <div className="line line_2"></div>
@@ -41,6 +63,16 @@ const Navbar = () => {
                   exact
                 >
                   Services
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  activeClassName="menu_active"
+                  className="nav-link if_hover"
+                  to="/demo"
+                  exact
+                >
+                  Demo
                 </NavLink>
               </li>
               <li className="nav-item">
