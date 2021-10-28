@@ -3,7 +3,7 @@ import React from 'react';
 const Card = (props) => {
   return (
     <>
-        <div className="card-deck mx-auto col-md-4 py-2">
+       
           <div className="card service__card" >
             <div className="card-body text-dark text-center">
               <h5 className="card-title services__heading">{props.title}</h5>
@@ -11,7 +11,7 @@ const Card = (props) => {
             </div>
             <div className="card-footer bg-transparent text-center text-muted">B-A TECHNOS</div>
           </div>
-        </div>  
+      
     </>
   );
 }

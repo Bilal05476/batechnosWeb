@@ -34,9 +34,12 @@ const Homepage = (props) => {
             <h2 className="text-light">{props.name}</h2>
             <p className="text-light text-justify">{props.subtitle}</p>
             <div>
-              <a className="light_btn btn__services" href={props.servicesVisit}>
+              <NavLink
+                className="light_btn btn__services"
+                to={props.servicesVisit}
+              >
                 {props.servicesbtn}
-              </a>
+              </NavLink>
               <NavLink className="btn__services" to={props.coursesVisit}>
                 {props.coursesbtn}
               </NavLink>

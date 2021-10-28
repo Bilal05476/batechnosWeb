@@ -106,8 +106,8 @@
 .services__div {
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 20px;
-  margin-top: 76px;
+  /* padding: 20px; */
+  /* margin-top: 76px; */
 }
 .web__div {
   background-size: cover;
@@ -219,6 +219,9 @@ img {
   transition: 0.5s !important;
   box-shadow: 0.2px 0.2px 7px var(--mainColor--);
   cursor: pointer;
+}
+.service_card_hover:hover {
+  background: rgba(238, 238, 238, 0.295);
 }
 
 .menu_active {

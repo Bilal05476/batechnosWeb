@@ -36,9 +36,11 @@ const About = () => {
       <div className="container-fluid mb-5" data-aos="ease-in">
         <div className="col-12 mx-auto">
           <div className="row">
-            {CData.map((val, ind) => {
-              return <Card key={ind} title={val.title} text={val.text} />;
-            })}
+            <div className="card-deck mx-auto col-md-12 py-2">
+              {CData.map((val, ind) => {
+                return <Card key={ind} title={val.title} text={val.text} />;
+              })}
+            </div>
           </div>
         </div>
       </div>

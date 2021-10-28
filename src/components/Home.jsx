@@ -14,7 +14,7 @@ const Home1 = () => {
           B-A TECHNOS provides a One-stop solution to our Foreign and Local clients to facelift their Brands. 
           We made technology simple for you and adapt reliable, easy, and innovative ideas. 
           Better design with easy navigation for stubborn marketing. So what are you waiting for?"
-          servicesVisit="#services"
+          servicesVisit="/services"
           servicesbtn="Services"
           coursesbtn="Courses"
           coursesVisit="/courses"
@@ -26,16 +26,25 @@ const Home1 = () => {
         Meet Our Solutions For You
       </h3>
       <p className="subtitle text-center">
-        Business Planning, Strategy, and Execution. <br /> A problem-solving philosophy
-        that leads to products people actually want to use.
+        Business Planning, Strategy, and Execution. <br /> A problem-solving
+        philosophy that leads to products people actually want to use.
       </p>
       <br />
-      <div className="container-fluid mb-5" data-aos="zoom-in">
+      <div className="container-fluid mb-5" data-aos="fade-in">
         <div className="col-12 mx-auto">
           <div className="row">
-            {SData.map((val, ind) => {
-              return <SCard key={ind} title={val.title} text={val.text} />;
-            })}
+            <div className="card-deck mx-auto py-3">
+              {SData.map((val, ind) => {
+                return (
+                  <SCard
+                    key={ind}
+                    title={val.title}
+                    text={val.text}
+                    serviceVisit={val.service}
+                  />
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
