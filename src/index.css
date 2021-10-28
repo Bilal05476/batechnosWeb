@@ -116,7 +116,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
-  margin-top: 76px;
+  margin-top: 5rem;
 }
 .contact__div {
   background-size: cover;
@@ -188,6 +188,8 @@ img {
 
 .card {
   margin: 10px;
+  border: none !important;
+  box-shadow: 0.2px 0.2px 2px var(--mainColor--);
 }
 .card-deck {
   padding-right: 0;
@@ -199,7 +201,7 @@ img {
 
 .card:hover {
   transition: 0.5s !important;
-  box-shadow: 2px 2px 12px var(--mainColor--);
+  box-shadow: 0.2px 0.2px 7px var(--mainColor--);
   cursor: pointer;
 }
 
@@ -666,5 +668,4 @@ img {
   .form__heading {
     font-size: 20px;
   }
-
 }

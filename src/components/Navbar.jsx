@@ -47,16 +47,6 @@ const Navbar = () => {
                 <NavLink
                   activeClassName="menu_active"
                   className="nav-link if_hover"
-                  to="/about"
-                  exact
-                >
-                  About
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink
-                  activeClassName="menu_active"
-                  className="nav-link if_hover"
                   to="/courses"
                   exact
                 >

@@ -2,6 +2,7 @@ import React from "react";
 import Homepage from "./Homepage";
 import SData from "./SData";
 import SCard from "./SCard";
+import About from "./About";
 
 const Home1 = () => {
   return (
@@ -19,6 +20,7 @@ const Home1 = () => {
           coursesVisit="/courses"
         />
       </div>
+      <About />
       <br />
       <h3 className="text-center services__heading py-4" data-aos="fade-in">
         OUR SERVICES
@@ -33,7 +35,6 @@ const Home1 = () => {
           </div>
         </div>
       </div>
-      <br />
     </>
   );
 };
