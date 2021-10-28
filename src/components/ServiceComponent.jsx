@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const ServiceComponent = (props) => {
   return (
-    <div className="container-fluid homepage">
+    <div className="container-fluid homepage serviceComponent">
       <div className="row">
         <div className="col-md-7 text_div">
           <h2 className="text-light">{props.title}</h2>

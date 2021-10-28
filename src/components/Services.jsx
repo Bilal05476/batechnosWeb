@@ -2,7 +2,7 @@ import React from "react";
 import web from "../images/aboutimage.png";
 import digi from "../images/digi.png";
 import graphic from "../images/graph.png";
-import Common from "./Common";
+import applicaion from "../images/application.png";
 import ServiceComponent from "./ServiceComponent";
 const Services = () => {
   return (
@@ -17,7 +17,7 @@ const Services = () => {
       <ServiceComponent
         title="Android App Development"
         subTitle="Android App Development is the building and maintenance of Mobile Applications; it's the work that happens behind the scenes to make a application look great, work fast and perform well with a seamless user experience."
-        imgSrc={web}
+        imgSrc={applicaion}
         visit="/"
         btnName="Get Started"
       />

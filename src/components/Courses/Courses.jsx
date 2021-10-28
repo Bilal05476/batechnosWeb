@@ -6,8 +6,8 @@ const Courses = () => {
   return (
     <>
       <div className="web__div courses__main text-light" data-aos="fade-in">
-        <div className="row">
-          {/* <div
+        {/* <div className="row">
+          <div
             className="offset-md-3 col-md-6 alert alert-danger alert-dismissible fade show"
             role="alert"
           >
@@ -20,13 +20,13 @@ const Courses = () => {
             >
               <span aria-hidden="true">&times;</span>
             </button>
-          </div> */}
-        </div>
+          </div>
+        </div> */}
 
         <div className="row courses__div">
-          <div className="offset-md-2 col-md-8">
+          <div className="offset-md-1 px-4 col-md-10">
             <h2>
-              Welcome to <strong>Batechnos</strong>
+              Welcome to <strong>B-A Technos</strong>
             </h2>
             <h4>Courses Page</h4>
             <p>
@@ -44,7 +44,7 @@ const Courses = () => {
               style={{
                 display: "flex",
                 alignItems: "flex-start",
-                justifyContent: "flex-end",
+                justifyContent: "center",
               }}
               className="my-5"
             >
