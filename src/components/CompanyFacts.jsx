@@ -1,7 +1,6 @@
 import React from "react";
 import "./CompanyFacts.css";
 import { BiHappyAlt } from "react-icons/bi";
-import { GrProjects } from "react-icons/gr";
 import { FaTeamspeak } from "react-icons/fa";
 import {AiOutlineProject} from "react-icons/ai";
 const CompanyFacts = () => {
@@ -15,9 +14,10 @@ const CompanyFacts = () => {
               <br /> Real Facts
             </h4>
             <p className="mb-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              ut harum aliquam cupiditate nam quibusdam ratione, in distinctio
-              suscipit ullam?
+              B-A Technos provides the best services to clients as their
+              requirements. We have our happy clients who work with us. We
+              complete our projects with a target-oriented approach with highly
+              skillful team members.
             </p>
           </div>
           <div className="col-md-6 facts">

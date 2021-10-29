@@ -13,9 +13,8 @@ const Testimonals = () => {
         Provide Business Planning, Strategy, and Execution. <br /> Our clients
         share valuable feedbacks for our work, and always enjoy our services.
       </p>
-
       <div className="container-fluid mb-5" data-aos="fade-in">
-        <div className="col-12 mx-auto">
+        <div className="col-12">
           <div className="row">
             <div className="card-deck testimonal-deck mx-auto py-3">
               {TData.map((val, ind) => {

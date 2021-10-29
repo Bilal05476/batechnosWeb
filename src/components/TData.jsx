@@ -1,27 +1,27 @@
 const TData = [
   {
-    name: "Peter Villian",
-    service: "Website Development",
+    name: "Peter William",
+    service: "Website Development / Social Media Marketing",
     feedBack:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ipsam vitae aperiam! Quaerat, consequuntur temporibus? Ab ipsam id voluptatum itaque iure nesciunt sequi tempora tenetur aspernatur aperiam neque provident quod sit laborum sunt quas, eveniet voluptas necessitatibus.",
+      "They are so professional provide the best services to me every time, I was looking for a website and also social media-related work and they fulfill my need as I expected. Thank you so much buddies Keep that up.. 🚀 ",
   },
   {
-    name: "Peter Villian",
+    name: "Jack Charlie",
     service: "Website Development",
     feedBack:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ipsam vitae aperiam! Quaerat, consequuntur temporibus? Ab ipsam id voluptatum itaque iure nesciunt sequi tempora tenetur aspernatur aperiam neque provident quod sit laborum sunt quas, eveniet voluptas necessitatibus.",
+      "They are so professional provide the best services to me every time, I was looking for website related work and they fulfill my need as I expected. Thank you so much buddies Keep that up.. 🚀",
   },
   {
-    name: "Peter Villian",
+    name: "Samm Dev",
     service: "Social Media Marketing",
     feedBack:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ipsam vitae aperiam! Quaerat, consequuntur temporibus? Ab ipsam id voluptatum itaque iure nesciunt sequi tempora tenetur aspernatur aperiam neque provident quod sit laborum sunt quas, eveniet voluptas necessitatibus.",
+      "They are so professional provide the best services to me every time, I was looking for social media-related work and they fulfill my need as I expected. Thank you so many buddies Keep that up.. 🚀",
   },
   {
-    name: "Peter Villian",
+    name: "Abdullah Majeed",
     service: "Graphic Designing",
     feedBack:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ipsam vitae aperiam! Quaerat, consequuntur temporibus? Ab ipsam id voluptatum itaque iure nesciunt sequi tempora tenetur aspernatur aperiam neque provident quod sit laborum sunt quas, eveniet voluptas necessitatibus.",
+      "They are so professional provide the best services to me every time, I was looking for graphic designing related work and they fulfill my need as I expected. Thank you so many buddies Keep that up.. 🚀",
   },
 ];
 
