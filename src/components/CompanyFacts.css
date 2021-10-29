@@ -1,0 +1,45 @@
+.companyFacts {
+  background: linear-gradient(rgba(26, 38, 68, 0.932), rgba(26, 38, 68, 0.918)),
+    url(../images/tech-gif.gif) center no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.facts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients-div,
+.team-div,
+.projects-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  align-items: center;
+  font-size: 1rem;
+}
+.facts-icons {
+  font-size: 4rem;
+}
+.facts strong {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.facts small {
+  font-weight: 200;
+  font-style: italic;
+}
+@media (max-width: 767px) {
+  .facts {
+    flex-direction: column;
+  }
+  .clients-div,
+  .team-div,
+  .projects-div {
+    margin-top: 1rem;
+    margin-right: 0;
+  }
+}

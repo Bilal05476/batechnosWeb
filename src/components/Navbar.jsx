@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [navbarBackground, setNavbarBackground] = useState(false);
   const [navbarIcon, setNavbarIcon] = useState(false);
+  const location = useLocation();
 
   // Change Navbar Background
   const changeBackground = () => {
@@ -18,6 +19,13 @@ const Navbar = () => {
     // changeBackground();
     // adding the event when scroll change background
     window.addEventListener("scroll", changeBackground);
+    if (
+      location.pathname === "/contact" ||
+      location.pathname === "/register" ||
+      location.pathname === "/coursesdetails"
+    ) {
+      setNavbarBackground(true);
+    }
   });
   return (
     <>

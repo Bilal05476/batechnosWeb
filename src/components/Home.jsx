@@ -3,6 +3,8 @@ import Homepage from "./Homepage";
 import SData from "./SData";
 import SCard from "./SCard";
 import About from "./About";
+import Testimonals from "./Testimonals";
+import CompanyFacts from "./CompanyFacts";
 
 const Home1 = () => {
   return (
@@ -21,15 +23,15 @@ const Home1 = () => {
         />
       </div>
       <About />
-      <br />
-      <h3 className="text-center services__heading py-4" data-aos="fade-in">
+   
+      <h3 className="text-center services__heading py-2" data-aos="fade-in">
         Meet Our Solutions For You
       </h3>
       <p className="subtitle text-center">
         Business Planning, Strategy, and Execution. <br /> A problem-solving
         philosophy that leads to products people actually want to use.
       </p>
-      <br />
+ 
       <div className="container-fluid mb-5" data-aos="fade-in">
         <div className="col-12 mx-auto">
           <div className="row">
@@ -48,6 +50,8 @@ const Home1 = () => {
           </div>
         </div>
       </div>
+      <Testimonals />
+      <CompanyFacts />
     </>
   );
 };
