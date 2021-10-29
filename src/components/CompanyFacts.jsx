@@ -1,7 +1,9 @@
 import React from "react";
 import "./CompanyFacts.css";
 import { BiHappyAlt } from "react-icons/bi";
-
+import { GrProjects } from "react-icons/gr";
+import { FaTeamspeak } from "react-icons/fa";
+import {AiOutlineProject} from "react-icons/ai";
 const CompanyFacts = () => {
   return (
     <div className="conatiner-fluid companyFacts">
@@ -25,12 +27,12 @@ const CompanyFacts = () => {
               <small>Happy clients</small>
             </div>
             <div className="projects-div">
-              <BiHappyAlt className="facts-icons" />
+              <AiOutlineProject className="facts-icons" />
               <strong>15+</strong>
               <small>Project Completed</small>
             </div>
             <div className="team-div">
-              <BiHappyAlt className="facts-icons" />
+              <FaTeamspeak className="facts-icons" />
               <strong>4+</strong>
               <small>Team of People</small>
             </div>

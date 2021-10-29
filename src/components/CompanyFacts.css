@@ -23,6 +23,7 @@
 }
 .facts-icons {
   font-size: 4rem;
+  color: var(--lightBlue--) !important;
 }
 .facts strong {
   font-size: 2rem;
