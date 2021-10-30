@@ -12,7 +12,7 @@ const CoursesDetails = () => {
   return (
     <div className="web__div" data-aos="fade-in">
       <Common3
-        name="Static Responsive Website"
+        name="Static Website Development"
         data="This course for absolute beginners who don't know anything about website development. In this course, we cover all the basic fundamentals of website development and responsive development as well."
         note="PREREQUISITES"
         note2="What you will Learn"
@@ -26,7 +26,7 @@ const CoursesDetails = () => {
         content="Html5, Css3, JavaScript, Media Queries, Bootstrap, FontAwesome, Github, Firebase, Netlify"
       />
       <Common2
-        name="React Web Application"
+        name="React Web Applications"
         data="This course for the intermediate level who knows about the static website development building process. In this course, we cover all the basic and advanced fundamentals of website development with ReactJs. And Concentrate on Single Page and Progressive Web App with ReatcJS."
         note="PREREQUISITES"
         note2="What you will Learn"

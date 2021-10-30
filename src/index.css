@@ -580,7 +580,7 @@ img {
 }
 
 .programs .static {
-  border-top: 30px solid #314755;
+  border-top: 30px solid var(--darkBlue--);;
 }
 .programs .static:hover {
   background-color: var(--darkBlue--);
@@ -611,8 +611,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--mainColor--) !important;
-  outline: none !important;
+  background-color: var(--darkBlue--) !important;
   border: none !important;
   border-radius: 2rem;
   width: 100%;

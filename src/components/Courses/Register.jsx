@@ -137,7 +137,6 @@ const Register = () => {
                 <DropdownButton
                   title={!course ? "select" : course}
                   id="dropdown-menu"
-                  className="selectBtn"
                   onSelect={handleSelect}
                   required
                 >
