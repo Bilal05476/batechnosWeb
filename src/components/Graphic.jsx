@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Common4 from "./Common4";
 import graph from "../images/graph.png";
 
 const Graphic = () => {
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="graph__div" data-aos="fade-in">
       <Common4

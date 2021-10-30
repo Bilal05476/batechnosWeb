@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { db } from "./firebase";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -15,6 +15,10 @@ const Landing = () => {
   const [service, setService] = useState("");
 
   const [loader, setLoader] = useState(false);
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -48,7 +52,7 @@ const Landing = () => {
 
   return (
     <>
-      <div className="main container-fluid" data-aos="zoom-in">
+      <div className="main container-fluid" data-aos="fade-in">
         <div className="row">
           <div className="col-md-6 content">
             <h2 className="main__heading">Digital Creative Solution</h2>

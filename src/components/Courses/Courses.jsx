@@ -1,12 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import CountUp from "react-countup";
 import { NavLink } from "react-router-dom";
 
 const Courses = () => {
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="web__div courses__main text-light" data-aos="fade-in">
-        {/* <div className="row">
+        <div className="row courses__div">
           <div
             className="offset-md-3 col-md-6 alert alert-danger alert-dismissible fade show"
             role="alert"
@@ -21,9 +25,6 @@ const Courses = () => {
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-        </div> */}
-
-        <div className="row courses__div">
           <div className="offset-md-1 px-4 col-md-10">
             <h2>
               Welcome to <strong>B-A Technos</strong>

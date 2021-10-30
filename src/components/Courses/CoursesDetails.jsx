@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Common2 from "../Common2";
 import Common3 from "../Common3";
 import reactwebapp from "../../images/reactwebapp.png";
 import staticweb from "../../images/staticweb.png";
 import python from "../../images/python.png";
 const CoursesDetails = () => {
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="web__div" data-aos="fade-in">
       <Common3

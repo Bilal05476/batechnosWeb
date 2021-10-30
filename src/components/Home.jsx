@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Homepage from "./Homepage";
 import SData from "./SData";
 import SCard from "./SCard";
@@ -7,6 +7,10 @@ import Testimonals from "./Testimonals";
 import CompanyFacts from "./CompanyFacts";
 
 const Home1 = () => {
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="home1__div" data-aos="fade-in">
@@ -23,7 +27,7 @@ const Home1 = () => {
         />
       </div>
       <About />
-   
+
       <h3 className="text-center services__heading py-2" data-aos="fade-in">
         Meet Our Solutions For You
       </h3>
@@ -31,7 +35,7 @@ const Home1 = () => {
         Business Planning, Strategy, and Execution. <br /> A problem-solving
         philosophy that leads to products people actually want to use.
       </p>
- 
+
       <div className="container-fluid mb-5" data-aos="fade-in">
         <div className="col-12 mx-auto">
           <div className="row">

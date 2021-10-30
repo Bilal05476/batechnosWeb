@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { db } from "../firebase";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DropdownButton from "react-bootstrap/DropdownButton";
@@ -13,6 +13,10 @@ const Register = () => {
   const [qualification, setQualification] = useState("");
 
   const [loader, setLoader] = useState(false);
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -154,19 +158,39 @@ const Register = () => {
               phone === "" ||
               qualification === "" ||
               course === "" ? (
-                <button type="send" className="btn-block btn__disable" disabled>
-                  Register
-                </button>
-              ) : (
-                <button
-                  type="send"
-                  className="btn-block btn__db"
+                // <button type="send" className="btn-block btn__disable" disabled>
+                //   Register
+                // </button>
+                <strong
                   style={{
-                    background: loader ? "#ccc" : "rgb(214, 43, 100)",
+                    background: "pink",
+                    color: "crimson",
+                    borderRadius: "30px",
                   }}
+                  className="p-2 px-4"
                 >
-                  Register
-                </button>
+                  Registration is Closed
+                </strong>
+              ) : (
+                <strong
+                  style={{
+                    background: "pink",
+                    color: "crimson",
+                    borderRadius: "30px",
+                  }}
+                  className="p-2 px-4"
+                >
+                  Registration is Closed
+                </strong>
+                // <button
+                //   type="send"
+                //   className="btn-block btn__db"
+                //   style={{
+                //     background: loader ? "#ccc" : "rgb(214, 43, 100)",
+                //   }}
+                // >
+                //   Register
+                // </button>
               )}
             </form>
             <br />

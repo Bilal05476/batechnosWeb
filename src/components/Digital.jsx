@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Common4 from "./Common4";
 import digi from "../images/digi.png";
 
 const Digital = () => {
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="digi__div" data-aos="zoom-in">
       <Common4

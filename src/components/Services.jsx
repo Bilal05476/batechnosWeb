@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import web from "../images/aboutimage.png";
 import digi from "../images/digi.png";
 import graphic from "../images/graph.png";
 import applicaion from "../images/application.png";
 import ServiceComponent from "./ServiceComponent";
 const Services = () => {
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="services__div" data-aos="fade-in">
       <ServiceComponent
