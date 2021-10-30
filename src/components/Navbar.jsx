@@ -22,7 +22,10 @@ const Navbar = () => {
     if (
       location.pathname === "/contact" ||
       location.pathname === "/register" ||
-      location.pathname === "/coursesdetails"
+      location.pathname === "/coursesdetails" ||
+      location.pathname === "/social" ||
+      location.pathname === "/website" ||
+      location.pathname === "/graphic"
     ) {
       setNavbarBackground(true);
     }

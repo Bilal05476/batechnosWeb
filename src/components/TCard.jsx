@@ -5,7 +5,7 @@ const TCard = (props) => {
   return (
     <div className="card service__card service_card_hover">
       <div className="card-body text-dark text-center">
-        <FaCommentDots />
+        <FaCommentDots style={{ fontSize: "2rem" }} className="mb-2" />
         <br />
         <strong>{props.service}</strong>
         <p className="card-text">{props.feedBack}</p>

@@ -31,13 +31,13 @@ const Courses = () => {
             </h2>
             <h4>Courses Page</h4>
             <p>
-              Assalam u Alaikum! My name is Bilal Ahmed. I am the Founder of
-              Batechnos. I am also a React Developer. The vision behind the
-              Batechnos is to empower the youth of Pakistan so they can earn and
-              support their family too. Batechnos is a institute for all of
+              Assalam u Alaikum! My name is Bilal Ahmed. I am the Founder of B-A
+              Technos. I am also a React Developer. The vision behind the B-A
+              Technos is to empower the youth of Pakistan so they can earn and
+              support their family too. B-A Technos is a institute for all of
               those who are not able to pay a high amount of fees but eager to
               learn new technologies and earn respective income as per skills
-              set. The mission behind this effort from Batechnos is to share
+              set. The mission behind this effort from B-A Technos is to share
               knowledge with the youth of Pakistan and grow Pakistan at the
               industry level.
             </p>
