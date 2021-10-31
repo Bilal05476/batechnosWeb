@@ -6,7 +6,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const Testimonals = () => {
-  
   return (
     <div className="testimonals">
       <h3 className="text-center py-2 px-3" data-aos="fade-in">
@@ -17,24 +16,19 @@ const Testimonals = () => {
         share valuable feedbacks for our work, and always enjoy our services.
       </p>
       <div className="container-fluid mb-5" data-aos="fade-in">
-        <div className="col-12">
-          <div className="row">
-       
-
-            {TData.map((val, ind) => {
-              return (
-                <>
-                  <TCard
-                    key={ind}
-                    name={val.name}
-                    feedBack={val.feedBack}
-                    service={val.service}
-                  />
-                </>
-              );
-            })}
-            
-          </div>
+        <div className="testimonal-flex">
+          {TData.map((val, ind) => {
+            return (
+              <>
+                <TCard
+                  key={ind}
+                  name={val.name}
+                  feedBack={val.feedBack}
+                  service={val.service}
+                />
+              </>
+            );
+          })}
         </div>
       </div>
     </div>

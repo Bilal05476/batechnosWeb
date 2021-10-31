@@ -1,0 +1,9 @@
+.testimonal-flex {
+  display: flex;
+}
+
+@media (max-width: 867px) {
+  .testimonal-flex {
+    flex-direction: column;
+  }
+}
