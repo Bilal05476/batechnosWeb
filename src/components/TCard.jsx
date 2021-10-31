@@ -3,7 +3,7 @@ import { FaCommentDots } from "react-icons/fa";
 
 const TCard = (props) => {
   return (
-    <div className="card service__card service_card_hover">
+    <div className="col-md-3 service__card service_card_hover">
       <div className="card-body text-dark text-center">
         <FaCommentDots style={{ fontSize: "2rem" }} className="mb-2" />
         <br />
