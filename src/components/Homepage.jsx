@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import BannerCircle from "../images/carousel-graph.jpg";
 import BannerCircle2 from "../images/carousel-digi.jpg";
 import BannerCircle3 from "../images/carousel-web.jpg";
+
+
 const Homepage = (props) => {
   let currentImage = 0;
   const [imgSrc, setImageSrc] = useState(BannerCircle);
@@ -12,6 +14,7 @@ const Homepage = (props) => {
   const changeImages = () => {
     if (currentImage < 3) {
       currentImage++;
+
       if (currentImage === 1) {
         setImageSrc(BannerCircle2);
       } else if (currentImage === 2) {
@@ -45,6 +48,7 @@ const Homepage = (props) => {
               </NavLink>
             </div>
           </div>
+
           <div className="col-md-4 text-center">
             <img className="circleImage" src={imgSrc} alt="bannerCircle" />
           </div>
