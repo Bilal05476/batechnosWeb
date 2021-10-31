@@ -7,7 +7,7 @@ const Common2 = (props) => {
       <section id="header" className="d-flex align-items-center">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-8 pt-5 pt-lg-0 order-1 order-lg-2 d-flex justify-content-center flex-column">
+            <div className="col-md-8 pt-5 order-1 order-lg-2 d-flex justify-content-center flex-column">
               <h1>{props.name}</h1>
 
               <h6 className="my-3 desc">{props.data}</h6>

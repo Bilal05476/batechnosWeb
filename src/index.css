@@ -257,7 +257,7 @@ img {
   display: inline-block;
   padding: 10px 30px;
   transition: 0.5s;
-  border-radius: 50px;
+  border-radius: 10px;
   color: var(--mainColor--);
   border: 2px solid var(--mainColor--);
   text-decoration: none;
@@ -336,6 +336,7 @@ img {
 .contact__div .btn__db {
   background-color: var(--mainColor--) !important;
   border: 2px solid var(--mainColor--);
+  margin-left: 0;
 }
 .contact__div .btn__disable {
   background-color: #ccc !important;

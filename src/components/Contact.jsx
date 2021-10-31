@@ -112,7 +112,7 @@ const Contact = () => {
 
               <button
                 type="send"
-                className="btn-block btn__db"
+                className="btn-block btn__db btn__contact"
                 style={{ background: loader ? "#ccc" : "rgb(214, 43, 100)" }}
               >
                 Send
