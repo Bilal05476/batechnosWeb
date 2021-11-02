@@ -15,6 +15,24 @@
   --darkBlue--: #090d1b;
   --darkMode--: #424242;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--lightBlue--);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    var(--mainColor--) 100%,
+    var(--darkBlue--) 40%
+  );
+}
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -581,7 +599,7 @@ img {
 }
 
 .programs .static {
-  border-top: 30px solid var(--darkBlue--);;
+  border-top: 30px solid var(--darkBlue--);
 }
 .programs .static:hover {
   background-color: var(--darkBlue--);

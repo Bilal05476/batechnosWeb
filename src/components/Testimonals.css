@@ -4,7 +4,7 @@
   overflow-y: hidden;
 }
 .testimonal-card {
-  min-width: 300px;
+  min-width: 250px;
 }
 /* width */
 .testimonal-flex::-webkit-scrollbar {
@@ -19,13 +19,13 @@
 /* Handle */
 .testimonal-flex::-webkit-scrollbar-thumb {
   background: linear-gradient(
-    to bottom,
-    var(--mainColor--) 0%,
-    var(--darkBlue--) 100%
+    to left,
+    var(--mainColor--) 100%,
+    var(--darkBlue--) 40%
   );
 }
 @media (max-width: 867px) {
-  .testimonal-flex {
-    flex-direction: column;
+  .testimonal-card {
+    min-width: 200px;
   }
 }
