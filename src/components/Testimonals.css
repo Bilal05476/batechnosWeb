@@ -26,6 +26,12 @@
 }
 @media (max-width: 867px) {
   .testimonal-card {
-    min-width: 200px;
+    min-width: 250px;
+  }
+  .testimonals h3 {
+    font-size: 1.5rem;
+  }
+  .testimonals p {
+    font-size: .8rem;
   }
 }
