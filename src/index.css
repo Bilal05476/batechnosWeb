@@ -114,6 +114,7 @@
     url(./images/tech-gif.gif) center no-repeat;
   background-size: cover;
   padding: 130px;
+  padding-left: 40px;
 }
 .homepage .text_div {
   padding-top: 100px;
@@ -647,7 +648,9 @@ img {
   }
   .homepage {
     padding: 50px;
+    padding-left: 40px;
   }
+  
   .serviceComponent {
     padding: 30px;
     padding-bottom: 10px;
