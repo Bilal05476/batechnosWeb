@@ -7,7 +7,7 @@
 //     <>
 //       <h3 className="text-center">Services</h3>
 //       <br />
-//       <div className="container mb-5" data-aos="fade-in">
+//       <div className="container mb-5" data-aos="fade-up">
 //         <div className="col-12 mx-auto">
 //           <div className="row">
 //             {CData.map((val, ind) => {

@@ -8,7 +8,7 @@ const Graphic = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="graph__div" data-aos="fade-in">
+    <div className="graph__div" data-aos="fade-up">
       <Common4
         name="Why Choose Us "
         data="Graphic designing has a crucial role in your business strategy. Your company logo determines your corporate identity and this is the first and foremost thing customers will notice to analyze your business image. Same goes for your brochures, business cards, flyers, letterheads, newsletters, these all define the overall image of your business or company."

@@ -4,7 +4,6 @@ import BannerCircle from "../images/carousel-graph.jpg";
 import BannerCircle2 from "../images/carousel-digi.jpg";
 import BannerCircle3 from "../images/carousel-web.jpg";
 
-
 const Homepage = (props) => {
   let currentImage = 0;
   const [imgSrc, setImageSrc] = useState(BannerCircle);
@@ -26,7 +25,10 @@ const Homepage = (props) => {
     }
   };
   useEffect(() => {
-    setInterval(changeImages, 5000);
+    const interval = setInterval(() => {
+      changeImages();
+    }, 5000);
+    return () => interval;
   }, []);
 
   return (

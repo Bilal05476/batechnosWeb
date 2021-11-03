@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import CountUp from "react-countup";
 import { NavLink } from "react-router-dom";
 
@@ -9,7 +9,7 @@ const Courses = () => {
   }, []);
   return (
     <>
-      <div className="web__div courses__main text-light" data-aos="fade-in">
+      <div className="web__div courses__main text-light" data-aos="fade-up">
         <div className="row courses__div">
           <div
             className="offset-md-3 col-md-6 alert alert-danger alert-dismissible fade show"
@@ -75,7 +75,7 @@ const Courses = () => {
           </div>
         </div>
       </div>
-      <div className="container programs" data-aos="fade-in">
+      <div className="container programs" data-aos="fade-up">
         <div className="row">
           <div className="offset-md-3 col-md-6">
             <h3 className=" text-center my-5">Avalaible Programs</h3>

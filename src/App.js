@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Services from "./components/Services";
 import Website from "./components/Website";
+import Application from "./components/Application";
 import Graphic from "./components/Graphic";
 import Digital from "./components/Digital";
 import Footer from "./components/Footer";
@@ -23,6 +24,7 @@ const App = () => {
         <Route exact path="/services" component={Services} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/website" component={Website} />
+        <Route exact path="/application" component={Application} />
         <Route exact path="/social" component={Digital} />
         <Route exact path="/graphic" component={Graphic} />
         <Route exact path="/demo" component={Landing} />

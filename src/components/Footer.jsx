@@ -35,8 +35,8 @@ const Footer = () => {
   };
   return (
     <>
-      <div className="footer align-items-center text-white" data-aos="fade-in">
-        <div className="container">
+      <div className="footer align-items-center text-white">
+        <div className="container" data-aos="fade-up">
           <div className="row">
             <div className="col-12 col-md-3 foot">
               <NavLink className="navbar-brand text-light" to="/" exact>

@@ -6,7 +6,7 @@ const SData = [
   },
   {
     title: "Android App Development",
-    service: "/",
+    service: "/application",
     text: "Android App Development is the building and maintenance of Mobile Applications; it's the work that happens behind the scenes to make a application look great, work fast and perform well with a seamless user experience.",
   },
   {

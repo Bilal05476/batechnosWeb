@@ -6,7 +6,7 @@ import {AiOutlineProject} from "react-icons/ai";
 const CompanyFacts = () => {
   return (
     <div className="conatiner-fluid companyFacts">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div className="row">
           <div className="col-md-6">
             <h4>

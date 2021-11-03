@@ -10,7 +10,7 @@ const CoursesDetails = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="web__div" data-aos="fade-in">
+    <div className="web__div" data-aos="fade-up">
       <Common3
         name="Static Website Development"
         data="This course for absolute beginners who don't know anything about website development. In this course, we cover all the basic fundamentals of website development and responsive development as well."

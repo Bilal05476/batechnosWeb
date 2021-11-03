@@ -10,7 +10,7 @@ const Website = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="web__div" data-aos="fade-in">
+    <div className="web__div" data-aos="fade-up">
       <Common2
         name="React Web App "
         data="A dynamic look React Single Page Web Application with all of the features you need in any website for you and your organization using React stunning features."

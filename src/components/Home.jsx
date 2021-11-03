@@ -28,7 +28,7 @@ const Home1 = () => {
       </div>
       <About />
 
-      <h3 className="text-center services__heading py-2" data-aos="fade-in">
+      <h3 className="text-center services__heading py-2" data-aos="fade-up">
         Meet Our Solutions For You
       </h3>
       <p className="subtitle text-center">
@@ -36,7 +36,7 @@ const Home1 = () => {
         philosophy that leads to products people actually want to use.
       </p>
 
-      <div className="container-fluid mb-5" data-aos="fade-in">
+      <div className="container-fluid mb-5" data-aos="fade-up">
         <div className="col-12 mx-auto">
           <div className="row">
             <div className="card-deck mx-auto py-3">

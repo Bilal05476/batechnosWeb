@@ -16,7 +16,6 @@ const Navbar = () => {
   };
 
   useEffect(() => {
-    // changeBackground();
     // adding the event when scroll change background
     window.addEventListener("scroll", changeBackground);
     if (
@@ -25,7 +24,8 @@ const Navbar = () => {
       location.pathname === "/coursesdetails" ||
       location.pathname === "/social" ||
       location.pathname === "/website" ||
-      location.pathname === "/graphic"
+      location.pathname === "/graphic" ||
+      location.pathname === "/application"
     ) {
       setNavbarBackground(true);
     }

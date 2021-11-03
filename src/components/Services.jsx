@@ -10,7 +10,10 @@ const Services = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="services__div" data-aos="fade-in">
+    <div
+      className="services__div"
+      data-aos="fade-up"
+    >
       <ServiceComponent
         title="Mobile Friendly Websites"
         subTitle="Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience."
@@ -22,7 +25,7 @@ const Services = () => {
         title="Android App Development"
         subTitle="Android App Development is the building and maintenance of Mobile Applications; it's the work that happens behind the scenes to make a application look great, work fast and perform well with a seamless user experience."
         imgSrc={applicaion}
-        visit="/"
+        visit="/application"
         btnName="Get Started"
       />
       <ServiceComponent

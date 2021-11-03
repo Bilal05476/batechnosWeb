@@ -52,7 +52,7 @@ const Landing = () => {
 
   return (
     <>
-      <div className="main container-fluid" data-aos="fade-in">
+      <div className="main container-fluid" data-aos="fade-up">
         <div className="row">
           <div className="col-md-6 content">
             <h2 className="main__heading">Digital Creative Solution</h2>
