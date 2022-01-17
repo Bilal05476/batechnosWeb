@@ -143,7 +143,7 @@ const Footer = () => {
           </div>
           <div className="row copyright">
             <div className=" align-items-center text-center text-muted w-100">
-              <p className="copy__text"> Copyright © 2021 | B-A Technos</p>
+              <p className="copy__text"> Copyright © 2022 | B-A Technos</p>
             </div>
           </div>
         </div>
